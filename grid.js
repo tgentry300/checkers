@@ -1,14 +1,12 @@
-function Grid({ numberOfColumns, numberOfCellsInColumn, parentElement, cellWidth, cellHeight, defaultCellStyleClasses = [] }) {
+function Grid({ numberOfColumns, numberOfCellsInColumn, parentElement, cellWidth, cellHeight, defaultCellStyleClasses = []}) {
     this.numberOfColumns = numberOfColumns
     this.numberOfCellsInColumn = numberOfCellsInColumn
     this.parentElement = parentElement
     this.cellWidth = cellWidth
     this.cellHeight = cellHeight
     this.defaultCellStyleClasses = defaultCellStyleClasses
-    
     this.createGameGridArray()
     this.createColumn()
-console.log(this)
 }
 
 
